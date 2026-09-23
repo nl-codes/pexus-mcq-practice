@@ -1,622 +1,828 @@
 {
-  "modules": [
-    {
-      "id": "module3",
-      "name": "Module 3: Agentic AI Architectures & Capabilities (Set 3)",
-      "questions": [
+    "modules": [
         {
-          "question": "A company is designing an internal workshop-planning agent. It must understand the workshop goal, remember participant count and preferred date, check venue availability, create schedules and documents, send invitations, react if the venue becomes unavailable, and require a manager to approve major changes. Which architecture most completely reflects Module 3?",
-          "options": {
-            "A": "A reasoning model supported by appropriate memory and tools, operating through Plan - Act - Observe while retaining human oversight for important decisions",
-            "B": "A chatbot with a detailed persona that generates all outputs in a single response and performs no external actions",
-            "C": "A knowledge base containing workshop documents but no reasoning component, tools or review process",
-            "D": "A calendar automation that follows a fixed sequence regardless of new information or failed actions"
-          },
-          "correct": "A"
+            "id": "module3",
+            "name": "Module 3: Agentic AI Architectures & Capabilities (Set 3)",
+            "questions": [
+                {
+                    "question": "A company is designing an internal workshop-planning agent. It must understand the workshop goal, remember participant count and preferred date, check venue availability, create schedules and documents, send invitations, react if the venue becomes unavailable, and require a manager to approve major changes. Which architecture most completely reflects Module 3?",
+                    "options": {
+                        "A": "A reasoning model supported by appropriate memory and tools, operating through Plan - Act - Observe while retaining human oversight for important decisions",
+                        "B": "A chatbot with a detailed persona that generates all outputs in a single response and performs no external actions",
+                        "C": "A knowledge base containing workshop documents but no reasoning component, tools or review process",
+                        "D": "A calendar automation that follows a fixed sequence regardless of new information or failed actions"
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "A project team compares two setups. Setup X is a reusable role-specific assistant for recurring tasks. Setup Y is a workspace where many conversations inherit shared project instructions and uploaded project knowledge. Which distinction is most consistent with the module?",
+                    "options": {
+                        "A": "X resembles an assistant-based configuration; Y resembles Claude's project-based workspace.",
+                        "B": "X must be Claude Projects; Y must be a Gemini Gem.",
+                        "C": "Both are identical because every no-code AI product shares context in exactly the same way.",
+                        "D": "Y represents a newly trained model while X represents prompt engineering."
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "A newly configured Gem works perfectly for the exact example used during setup. What is the strongest next validation step?",
+                    "options": {
+                        "A": "Save it immediately because one successful response proves consistency.",
+                        "B": "Test only the same prompt repeatedly until the wording becomes identical.",
+                        "C": "Replace its instructions with a shorter version without comparing results.",
+                        "D": "Give it different but related requests and check whether the configured behavior remains consistent."
+                    },
+                    "correct": "D"
+                },
+                {
+                    "question": "A manager tells an agent, \u201cSend the final report to our usual executive distribution list.\u201d The agent knows how to send email but does not know which executives belong to the usual list. What is the main missing capability?",
+                    "options": {
+                        "A": "Another email tool",
+                        "B": "A stronger language model",
+                        "C": "A document-editing capability",
+                        "D": "Relevant remembered or stored information about the recipients"
+                    },
+                    "correct": "D"
+                },
+                {
+                    "question": "An agent sends a calendar invitation. Which activity represents the Observe stage rather than Plan or Act?",
+                    "options": {
+                        "A": "Checking whether the invitation was successfully created and accepted",
+                        "B": "Deciding that a meeting is necessary",
+                        "C": "Selecting the calendar tool",
+                        "D": "Writing the invitation description"
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "A reusable assistant already has clear instructions and reference documents. The team now enables a connection that allows it to schedule meetings rather than merely suggest meeting times. What role does this new configuration primarily play?",
+                    "options": {
+                        "A": "It replaces the model's reasoning.",
+                        "B": "It gives the assistant an external action capability.",
+                        "C": "It creates semantic memory about scheduling.",
+                        "D": "It turns the assistant into a newly trained AI model."
+                    },
+                    "correct": "B"
+                },
+                {
+                    "question": "A consulting team works on the same policy-development project for six months. They want every new conversation in the workspace to inherit project instructions, uploaded knowledge and shared context. Which module platform is most directly designed around this pattern?",
+                    "options": {
+                        "A": "Claude Projects",
+                        "B": "A standard one-off chatbot conversation",
+                        "C": "Gemini Gems only",
+                        "D": "An unconfigured general-purpose chat"
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "A finance agent prepares a recommendation affecting a major investment. It has analyzed documents, used calculation tools and produced a detailed rationale. What does the module still recommend?",
+                    "options": {
+                        "A": "A qualified human should review the important decision before implementation.",
+                        "B": "The agent should automatically execute because multiple tools were used.",
+                        "C": "The result requires no review once memory and tools agree.",
+                        "D": "Human involvement should be limited to correcting grammar."
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "An executive argues, \u201cThe agent checked its memory, used the correct tools and produced a confident recommendation. Therefore human review would add no value.\u201d Which response most closely reflects the module?",
+                    "options": {
+                        "A": "Correct, the three building blocks remove the need for human judgment.",
+                        "B": "Correct, but only when episodic memory is available.",
+                        "C": "Incorrect only if the agent has fewer than three external tools.",
+                        "D": "Important decisions can still require human context, ethical judgment and accountability."
+                    },
+                    "correct": "D"
+                },
+                {
+                    "question": "In the Module 3 workshop, trainees perform the same task using a configured Gemini Gem and a normal Gemini chat. What observation would provide the strongest evidence that reusable configuration is working as intended?",
+                    "options": {
+                        "A": "The Gem maintains the intended role, formatting and rules across related prompts with less repeated instruction.",
+                        "B": "The Gem always produces a longer response than normal chat.",
+                        "C": "The standard chat stops understanding the task completely.",
+                        "D": "The Gem gives the same exact wording every time regardless of the request."
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "A travel assistant receives the goal: \u201cPlan my three-day Pokhara trip within NPR 40,000.\u201d It compares options, builds an itinerary, checks whether the selected activities fit the budget, changes one hotel when the cost becomes too high, and then presents the completed plan. Which characteristic most strongly separates this behavior from a traditional chatbot?",
+                    "options": {
+                        "A": "It produces several paragraphs instead of a single answer.",
+                        "B": "It remembers that Pokhara is a travel destination.",
+                        "C": "It uses natural language rather than a fixed menu.",
+                        "D": "It determines and adjusts the steps needed to accomplish the goal."
+                    },
+                    "correct": "D"
+                },
+                {
+                    "question": "A meeting agent remembers that Room A was available every Monday for the past month. Today, the live booking tool reports that Room A is occupied. What should a well-designed agent prioritize?",
+                    "options": {
+                        "A": "The remembered pattern, because memory should override a tool after enough past observations.",
+                        "B": "The model's original plan, because changing plans reduces agent consistency.",
+                        "C": "The current observation and then replanning based on the new information.",
+                        "D": "The remembered information and tool result equally, even if they directly contradict each other."
+                    },
+                    "correct": "C"
+                },
+                {
+                    "question": "A support agent stores \u201cCustomer prefers email communication\u201d and \u201cOn March 8, the customer's delivery failed and a replacement shipment resolved the case.\u201d An engineer proposes storing both pieces of information as the same type of memory simply because both survive across sessions. What is the better analysis?",
+                    "options": {
+                        "A": "Both should be procedural because the information may influence future actions.",
+                        "B": "Both should be semantic because neither belongs to the current conversation.",
+                        "C": "The preference can be long-term user memory while the specific past case is episodic memory.",
+                        "D": "The past event should be short-term while the preference should be semantic."
+                    },
+                    "correct": "C"
+                },
+                {
+                    "question": "A customer-support agent is being designed to improve over time. The team wants it to remember useful customer preferences, how previous unusual support incidents were resolved, and the company's standard refund workflow. Which combination is most appropriate?",
+                    "options": {
+                        "A": "Long-term, episodic and procedural memory",
+                        "B": "Short-term, semantic and episodic memory",
+                        "C": "Procedural, short-term and long-term memory",
+                        "D": "Semantic, procedural and short-term memory"
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "An agent has access to the correct customer database, remembers the customer's previous complaint, and can send email. However, after reading the complaint it repeatedly chooses an irrelevant action even though all required information is available. Which component should be investigated first?",
+                    "options": {
+                        "A": "The model's reasoning and decision-making",
+                        "B": "The long-term memory storage mechanism",
+                        "C": "The email tool's external connection",
+                        "D": "The customer's previous interaction history"
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "A team creates a reusable HR assistant using an existing AI platform. They configure instructions, upload company material and enable relevant capabilities. What have they actually done?",
+                    "options": {
+                        "A": "Trained a completely new foundation model from company data",
+                        "B": "Replaced the underlying AI model with a custom neural network",
+                        "C": "Configured an existing model for a specific reusable purpose",
+                        "D": "Converted the company's documents into a new language model"
+                    },
+                    "correct": "C"
+                },
+                {
+                    "question": "An agent preparing a workshop has already remembered the preferred date. It now needs to determine whether the venue is available and reserve it. Which sequence best reflects the architecture taught in the module?",
+                    "options": {
+                        "A": "Tool remembers the preferred date - memory evaluates alternatives - model books the venue.",
+                        "B": "Memory books the venue - model retrieves the date - calendar reasons about alternatives.",
+                        "C": "Calendar selects the best strategy - model stores the venue - memory performs the booking.",
+                        "D": "Model uses remembered preferences to decide what to check, then uses a booking/calendar tool to act."
+                    },
+                    "correct": "D"
+                },
+                {
+                    "question": "During a support conversation, the customer says, \u201cMy order number is 9182.\u201d Several messages later, the agent still uses 9182 while resolving the same issue. Which memory type is most directly involved?",
+                    "options": {
+                        "A": "Semantic memory",
+                        "B": "Short-term memory",
+                        "C": "Episodic memory",
+                        "D": "Procedural memory"
+                    },
+                    "correct": "B"
+                },
+                {
+                    "question": "An agent remembers that a previous customer accepted a 15% discount after a service failure. A new customer reports a completely different problem, but the agent automatically gives the same discount because \u201cit worked last time.\u201d Which conclusion is strongest?",
+                    "options": {
+                        "A": "Episodic memory should never be available to an AI agent.",
+                        "B": "Remembered past outcomes must still be interpreted appropriately for the current situation.",
+                        "C": "Procedural memory should replace the model's decision-making entirely.",
+                        "D": "Any information stored across sessions becomes a mandatory rule for future actions."
+                    },
+                    "correct": "B"
+                },
+                {
+                    "question": "A recruitment agent ranks applicants and recommends three candidates for final interviews. The hiring manager accepts the ranking without reviewing candidate information because \u201cthe agent already analyzed everything.\u201d Which safeguard from the module is most clearly missing?",
+                    "options": {
+                        "A": "Human review of an important decision",
+                        "B": "Additional short-term memory",
+                        "C": "A second recruitment persona",
+                        "D": "A larger number of connected tools"
+                    },
+                    "correct": "A"
+                }
+            ]
         },
         {
-          "question": "A project team compares two setups. Setup X is a reusable role-specific assistant for recurring tasks. Setup Y is a workspace where many conversations inherit shared project instructions and uploaded project knowledge. Which distinction is most consistent with the module?",
-          "options": {
-            "A": "X resembles an assistant-based configuration; Y resembles Claude's project-based workspace.",
-            "B": "X must be Claude Projects; Y must be a Gemini Gem.",
-            "C": "Both are identical because every no-code AI product shares context in exactly the same way.",
-            "D": "Y represents a newly trained model while X represents prompt engineering."
-          },
-          "correct": "A"
+            "id": "module4",
+            "name": "Module 4: Connected AI, MCP & Tools (Set 1)",
+            "questions": [
+                {
+                    "question": "An AI application connects separately to a file service, calendar service, and internal database through MCP. Which architectural statement is most consistent with the curriculum?",
+                    "options": {
+                        "A": "One MCP Server must directly contain every external system.",
+                        "B": "A Host may manage multiple MCP clients connecting to different MCP servers.",
+                        "C": "Each AI model can use only one MCP client during its lifetime.",
+                        "D": "MCP Clients replace the AI model's reasoning component."
+                    },
+                    "correct": "B"
+                },
+                {
+                    "question": "A Drive-connected AI is asked, \u201cFind the latest supplier-risk assessment.\u201d The employee cannot remember the exact filename, but the document contains clear information about supplier risk. Which connected-AI capability is especially useful here?",
+                    "options": {
+                        "A": "Natural-language search across stored Drive content",
+                        "B": "Automatically granting the AI write access to every file",
+                        "C": "Converting every Drive document into an Artifact",
+                        "D": "Replacing the existing folder structure with a new AI-generated one before searching"
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "A department wants a workspace that will be reused every week. It needs consistent tone and format, internal reference materials, multiple related chats, and a report template that can be revised rather than regenerated. Which combination most directly satisfies all four needs?",
+                    "options": {
+                        "A": "A Plugin plus a browser extension only",
+                        "B": "A Skill plus separate unrelated chats",
+                        "C": "Claude Code plus one temporary conversation",
+                        "D": "A Claude Project with instructions, knowledge files, multiple chats, and a reusable Artifact"
+                    },
+                    "correct": "D"
+                },
+                {
+                    "question": "A project has the instruction \u201cUse a formal tone and finish every response with three action items.\u201d The user opens a new chat inside the same Claude Project and asks an unrelated project question. Claude still follows those rules without the user repeating them. What feature is primarily responsible for this consistency?",
+                    "options": {
+                        "A": "The previous chat has been converted into an Artifact.",
+                        "B": "The Project's persistent instructions apply across its conversations.",
+                        "C": "A Plugin automatically rewrites every user message before Claude receives it.",
+                        "D": "Claude Code reads the previous chat from the local file system."
+                    },
+                    "correct": "B"
+                },
+                {
+                    "question": "A manager photographs a handwritten whiteboard containing tasks, arrows, and dates. They want AI to recover the visible text and explain the flow shown in the image. Which combination of capabilities is most relevant?",
+                    "options": {
+                        "A": "Excel formulas and pivot tables",
+                        "B": "Claude Project instructions and Artifacts",
+                        "C": "OCR plus visual interpretation of the image or diagram",
+                        "D": "MCP Host and Client discovery only"
+                    },
+                    "correct": "C"
+                },
+                {
+                    "question": "A user has generated a useful calculator-like tool in Claude and expects to return later, adjust it, and reuse it rather than recreate it from a prompt each time. Why is an Artifact suitable?",
+                    "options": {
+                        "A": "Artifacts automatically provide access to any external application.",
+                        "B": "Artifacts are reusable outputs that can be edited, referenced, and iterated on.",
+                        "C": "Artifacts serve as the protocol layer between MCP Hosts and Servers.",
+                        "D": "Artifacts permanently change Claude's underlying model behavior."
+                    },
+                    "correct": "B"
+                },
+                {
+                    "question": "A project manager asks Claude to create a reusable weekly-status-report template. After reviewing it, the manager asks Claude to add a Risk section without regenerating the entire document from scratch. Which feature best matches this workflow?",
+                    "options": {
+                        "A": "An Artifact that can be revised and reused in place",
+                        "B": "A Skill that stores only the manager's usage statistics",
+                        "C": "A Plugin that connects to an external reporting service",
+                        "D": "A Project instruction that permanently replaces the report itself"
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "A manager says, \u201cDocument Intelligence is basically OCR because both can read text from documents.\u201d Which response best reflects the curriculum?",
+                    "options": {
+                        "A": "Correct; Document Intelligence does nothing beyond converting images to text.",
+                        "B": "Correct whenever the documents contain tables.",
+                        "C": "Incomplete; Document Intelligence can understand structure and meaning, extract fields, and create structured information beyond simple text recognition.",
+                        "D": "Incorrect because OCR is used only for audio rather than documents."
+                    },
+                    "correct": "C"
+                },
+                {
+                    "question": "Claude analyzes an Excel workbook and proposes a chart showing a sharp increase in costs. Before management acts on the finding, an analyst discovers several rows were categorized incorrectly in the source data. What lesson is most important?",
+                    "options": {
+                        "A": "Charts generated from spreadsheets never require review.",
+                        "B": "Claude should be given full write access so it can silently correct every data problem.",
+                        "C": "Excel analysis should always be replaced by manual calculation.",
+                        "D": "AI-generated spreadsheet insights should be validated against the underlying data before important decisions."
+                    },
+                    "correct": "D"
+                },
+                {
+                    "question": "A document-search assistant only needs to locate and summarize files. An administrator proposes granting it permission to delete files, send emails, and change calendar events \u201cin case those capabilities are useful later.\u201d What principle should guide the decision?",
+                    "options": {
+                        "A": "Grant every permission because connected AI is useful only with full access.",
+                        "B": "Use write access for every integration because read-only access prevents summarization.",
+                        "C": "Apply least privilege and grant only the permissions required for the current task.",
+                        "D": "Permissions are unnecessary if the Project instructions say not to perform risky actions."
+                    },
+                    "correct": "C"
+                },
+                {
+                    "question": "A manager says, \u201cThe model understands that I want the latest quarterly report, so it should already be able to read the file in my Drive.\u201d No Drive connection or file upload exists. Which explanation is most accurate?",
+                    "options": {
+                        "A": "Understanding the request automatically grants read access to all user applications.",
+                        "B": "The model still needs authorized access or a connection to retrieve information from the external system.",
+                        "C": "A sufficiently detailed prompt can replace application permissions.",
+                        "D": "The model should use procedural memory to reconstruct the missing report."
+                    },
+                    "correct": "B"
+                },
+                {
+                    "question": "A connected assistant must read an existing project record, update its status, and send an authorized notification after the update. Which permission concept is most likely required?",
+                    "options": {
+                        "A": "Read-only access because the AI can describe changes without making them.",
+                        "B": "Write-only access because reading is automatically included in every write scope.",
+                        "C": "No application permissions if MCP is being used.",
+                        "D": "Appropriate read-and-write permissions covering the required resources and actions."
+                    },
+                    "correct": "D"
+                },
+                {
+                    "question": "An AI needs to examine existing financial records but must never alter them. Which permission level most directly supports the requirement?",
+                    "options": {
+                        "A": "Read access",
+                        "B": "Write access only",
+                        "C": "Read-and-write access",
+                        "D": "Administrator access"
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "A team creates a Project with strong instructions but no uploaded company material. Claude follows the requested tone perfectly yet gives generic answers when asked about the company's internal procedures. What is the most direct improvement?",
+                    "options": {
+                        "A": "Increase the number of chats inside the Project.",
+                        "B": "Turn every response into an Artifact.",
+                        "C": "Add the relevant organizational documents as Project knowledge.",
+                        "D": "Install a usage-tracking browser extension."
+                    },
+                    "correct": "C"
+                },
+                {
+                    "question": "A claims team receives scanned accident forms. Staff need the policy number, accident date, claim amount, and damage details extracted into structured fields. Which application of Document Intelligence best matches this scenario?",
+                    "options": {
+                        "A": "Insurance document processing",
+                        "B": "Presentation generation",
+                        "C": "Project instruction management",
+                        "D": "Plugin testing"
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "An engineer argues that MCP is always expensive because \u201cconnecting even one tiny tool automatically consumes most of the context window.\u201d Which evaluation is most accurate?",
+                    "options": {
+                        "A": "Correct; MCP reserves a fixed majority of the context window regardless of implementation.",
+                        "B": "Correct; every MCP server sends its entire underlying database with every request.",
+                        "C": "Incorrect only when the connected tool is a calendar.",
+                        "D": "Incorrect; token impact depends on how many tools are exposed, their definitions, returned data, and context management."
+                    },
+                    "correct": "D"
+                },
+                {
+                    "question": "An operations team debates whether to create a Skill or an Artifact. Their requirement is: \u201cWe need a reusable set of instructions that Claude can apply whenever it formats incident reports.\u201d Which choice best fits the requirement?",
+                    "options": {
+                        "A": "A Skill, because the reusable asset is the task procedure Claude should follow",
+                        "B": "An Artifact, because every reusable instruction must be stored as a generated document",
+                        "C": "A Plugin, because formatting cannot be handled without an external system",
+                        "D": "A browser extension, because repeated tasks depend mainly on usage tracking"
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "Inside that AI application, one component establishes and maintains a communication session with a particular MCP server, discovers its capabilities, sends requests, and receives results. What is this component?",
+                    "options": {
+                        "A": "MCP Client",
+                        "B": "MCP Host",
+                        "C": "Model context window",
+                        "D": "Claude Artifact"
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "An organization wants an end-to-end AI workflow that retrieves approved business documents, extracts relevant information, prepares an executive summary and presentation, and updates an authorized workplace record. The documents are sensitive and some extracted values may be uncertain. Which design best reflects the combined principles of Module 4?",
+                    "options": {
+                        "A": "Give the AI unrestricted access to every connected system so the workflow never pauses for permissions.",
+                        "B": "Use AI only for generating text and manually perform every retrieval, extraction, and update because connected workflows are unsupported.",
+                        "C": "Use authorized connected tools with least-privilege access, apply Document Intelligence to the required data, validate important outputs, and retain human oversight where sensitivity or uncertainty warrants it.",
+                        "D": "Place all documents into a public Project and rely on custom instructions to prevent unauthorized use."
+                    },
+                    "correct": "C"
+                },
+                {
+                    "question": "A team connects 120 MCP tools to an AI assistant even though most users need only a few of them. They then notice that requests use substantially more context tokens before useful work begins. What is the strongest curriculum-based explanation?",
+                    "options": {
+                        "A": "MCP retrains the model every time a new tool becomes available.",
+                        "B": "External tools consume tokens only when they modify files.",
+                        "C": "Tool definitions, schemas, and returned results can occupy model context, especially when many tools are exposed.",
+                        "D": "MCP automatically doubles output length whenever more than ten tools are installed."
+                    },
+                    "correct": "C"
+                }
+            ]
         },
         {
-          "question": "A newly configured Gem works perfectly for the exact example used during setup. What is the strongest next validation step?",
-          "options": {
-            "A": "Save it immediately because one successful response proves consistency.",
-            "B": "Test only the same prompt repeatedly until the wording becomes identical.",
-            "C": "Replace its instructions with a shorter version without comparing results.",
-            "D": "Give it different but related requests and check whether the configured behavior remains consistent."
-          },
-          "correct": "D"
+            "id": "module5",
+            "name": "Module 5: Automated Workflows & Orchestration (Set 1)",
+            "questions": [
+                {
+                    "question": "A manager rejects an AI-generated customer response during an approval step. What should a properly designed workflow allow?",
+                    "options": {
+                        "A": "Permanently disable every future execution of the workflow.",
+                        "B": "Send the rejected message because AI generated it first.",
+                        "C": "Delete the customer's original request automatically.",
+                        "D": "Stop the send action or route the item for revision or manual handling."
+                    },
+                    "correct": "D"
+                },
+                {
+                    "question": "Keyword rules incorrectly route messages such as \u201cI've been charged twice and need this fixed\u201d because the exact word \u201crefund\u201d does not appear. Which approach is most appropriate?",
+                    "options": {
+                        "A": "Add more Schedule Triggers.",
+                        "B": "Store every possible customer sentence as a fixed variable.",
+                        "C": "Use an LLM node to interpret the meaning and classify the message.",
+                        "D": "Use a loop until the word \u201crefund\u201d appears."
+                    },
+                    "correct": "C"
+                },
+                {
+                    "question": "A workflow receives a different customer name during every execution. The email node needs to insert that name automatically instead of using fixed text. Which n8n concept best supports this?",
+                    "options": {
+                        "A": "Docker images",
+                        "B": "Credentials",
+                        "C": "Trigger types",
+                        "D": "Expressions that reference changing workflow data"
+                    },
+                    "correct": "D"
+                },
+                {
+                    "question": "A workflow receives invoices written in different layouts. The AI node must identify the supplier, invoice date, and total amount so those values can be stored in a database. Which AI capability is most relevant?",
+                    "options": {
+                        "A": "Credential creation",
+                        "B": "Workflow scheduling",
+                        "C": "Content generation",
+                        "D": "Information extraction"
+                    },
+                    "correct": "D"
+                },
+                {
+                    "question": "A customer's order ID changes on every workflow execution. A confirmation message must always include the order ID returned by the previous node. What design is strongest?",
+                    "options": {
+                        "A": "Reference the previous node's order ID dynamically with an expression.",
+                        "B": "Store one example order ID in the authentication credential.",
+                        "C": "Ask an employee to edit the message before each execution.",
+                        "D": "Create a separate workflow for every order."
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "A manager wants a reporting workflow to run automatically every morning and every evening. Which feature should primarily control those execution times?",
+                    "options": {
+                        "A": "Scheduling or an appropriate CRON configuration",
+                        "B": "Merge logic",
+                        "C": "Prompt templates",
+                        "D": "Credentials"
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "Two different branches of an n8n workflow retrieve related records that need to be combined before the next step. Which n8n component is specifically designed for this?",
+                    "options": {
+                        "A": "Manual Trigger",
+                        "B": "Schedule Trigger",
+                        "C": "Merge node",
+                        "D": "OAuth credential"
+                    },
+                    "correct": "C"
+                },
+                {
+                    "question": "Docker Desktop shows that the n8n image exists, but no container can be started because the component responsible for running and managing containers is unavailable. Which component should be checked first?",
+                    "options": {
+                        "A": "n8n Workflow Editor",
+                        "B": "Docker Engine",
+                        "C": "n8n Execution History",
+                        "D": "Docker Volume"
+                    },
+                    "correct": "B"
+                },
+                {
+                    "question": "A company designs the following process: AI evaluates a proposed record change \u2192 Human reviews \u2192 Approved changes continue; rejected changes do not. Which principle does this workflow illustrate?",
+                    "options": {
+                        "A": "Human approval is useful only for emails.",
+                        "B": "The workflow should always perform the action before review.",
+                        "C": "AI recommends a human review, and the workflow acts only after the decision.",
+                        "D": "The human should perform the AI analysis instead."
+                    },
+                    "correct": "C"
+                },
+                {
+                    "question": "During development, a trainee wants a workflow to run only when they deliberately click Execute so they can inspect every step. Which trigger is most suitable?",
+                    "options": {
+                        "A": "Manual Trigger",
+                        "B": "Form Trigger",
+                        "C": "Webhook Trigger",
+                        "D": "Schedule Trigger"
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "A trainee wants n8n to work with their Google account without storing their Google password in n8n. They sign in to Google, review requested permissions, and approve access. Which authentication approach does this describe?",
+                    "options": {
+                        "A": "Manual authentication",
+                        "B": "OAuth 2.0",
+                        "C": "Webhook authentication",
+                        "D": "API Key"
+                    },
+                    "correct": "B"
+                },
+                {
+                    "question": "An HR workflow receives 150 applications. The same extraction and processing steps should run for each application without creating 150 copies of the workflow. What is the best design?",
+                    "options": {
+                        "A": "Use a loop to repeat the required steps for the applications.",
+                        "B": "Create one trigger per applicant.",
+                        "C": "Create one credential per applicant.",
+                        "D": "Merge all applications into one value and process them once."
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "A support team processes thousands of messages with one standard AI classification workflow. The AI's role, categories, rules, and required output stay the same, while the customer message changes every execution. Which design is strongest?",
+                    "options": {
+                        "A": "Use a reusable prompt template containing fixed instructions and dynamic variables.",
+                        "B": "Write a new prompt manually for every incoming message.",
+                        "C": "Put the customer message inside the API key.",
+                        "D": "Store one example customer message permanently and use it for every execution."
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "A prompt contains dynamic placeholders such as `Customer Name: {{ customer_name }}` and `Message: {{ customer_message }}` where surrounding instructions remain unchanged. What do these placeholders represent?",
+                    "options": {
+                        "A": "Trigger definitions",
+                        "B": "Dynamic data inserted by the workflow",
+                        "C": "Fixed instructions",
+                        "D": "Authentication secrets"
+                    },
+                    "correct": "B"
+                },
+                {
+                    "question": "Consider this flow: Gmail \u2192 LLM Node \u2192 Classify Email \u2192 Google Sheets \u2192 Send Response. Why is this a connected flow?",
+                    "options": {
+                        "A": "All applications are running in one Docker container.",
+                        "B": "Multiple applications and workflow steps exchange and process data as part of one automated process.",
+                        "C": "Every node uses the same credential type.",
+                        "D": "The LLM performs every external action without the workflow."
+                    },
+                    "correct": "B"
+                },
+                {
+                    "question": "A new employee is added to the company's HR system. The organization wants accounts created, welcome information sent, required documents shared, and HR notified automatically. Which automation use case is this?",
+                    "options": {
+                        "A": "Research automation",
+                        "B": "Meeting-summary automation",
+                        "C": "Employee onboarding automation",
+                        "D": "Customer-support automation"
+                    },
+                    "correct": "C"
+                },
+                {
+                    "question": "A workflow receives long meeting notes and must turn them into a short summary before the next step sends the result to a team channel. Which LLM-node capability is being used primarily?",
+                    "options": {
+                        "A": "Container management",
+                        "B": "Summarization",
+                        "C": "Authentication",
+                        "D": "Scheduling"
+                    },
+                    "correct": "B"
+                },
+                {
+                    "question": "A Google-connected workflow only uses Drive and Sheets. During setup, a trainee suggests enabling Gmail, Calendar, Docs, Drive, and Sheets APIs \u201cbecause we may need them someday.\u201d What is the better approach?",
+                    "options": {
+                        "A": "Enable only the APIs required by the workflows that will actually use them.",
+                        "B": "Enable all Google APIs because OAuth cannot work with selected services.",
+                        "C": "Disable all APIs and place the Google password inside the workflow.",
+                        "D": "Create a new Google account for every individual node."
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "A reusable automation prompt must tell the AI who it should act as, what to do, what information to consider, which changing values to insert, what restrictions to follow, and how to structure the answer. Which set best represents these components?",
+                    "options": {
+                        "A": "Image, Container, Engine, API, Webhook, Form",
+                        "B": "Input, Output, Docker, OAuth, CRON, Execution",
+                        "C": "Trigger, Node, Container, Loop, Schedule, Credential",
+                        "D": "Role, Task, Context, Variables, Rules, Output Format"
+                    },
+                    "correct": "D"
+                },
+                {
+                    "question": "A workflow retrieves a list of 100 customers and must send each customer an individually addressed reminder. What is the strongest workflow design?",
+                    "options": {
+                        "A": "Create 100 separate OAuth credentials.",
+                        "B": "Loop through the customer items and use changing data in the reminder step.",
+                        "C": "Use one fixed email address for all executions.",
+                        "D": "Create 100 Docker containers."
+                    },
+                    "correct": "B"
+                }
+            ]
         },
         {
-          "question": "A manager tells an agent, \u201cSend the final report to our usual executive distribution list.\u201d The agent knows how to send email but does not know which executives belong to the usual list. What is the main missing capability?",
-          "options": {
-            "A": "Another email tool",
-            "B": "A stronger language model",
-            "C": "A document-editing capability",
-            "D": "Relevant remembered or stored information about the recipients"
-          },
-          "correct": "D"
-        },
-        {
-          "question": "An agent sends a calendar invitation. Which activity represents the Observe stage rather than Plan or Act?",
-          "options": {
-            "A": "Checking whether the invitation was successfully created and accepted",
-            "B": "Deciding that a meeting is necessary",
-            "C": "Selecting the calendar tool",
-            "D": "Writing the invitation description"
-          },
-          "correct": "A"
-        },
-        {
-          "question": "A reusable assistant already has clear instructions and reference documents. The team now enables a connection that allows it to schedule meetings rather than merely suggest meeting times. What role does this new configuration primarily play?",
-          "options": {
-            "A": "It replaces the model's reasoning.",
-            "B": "It gives the assistant an external action capability.",
-            "C": "It creates semantic memory about scheduling.",
-            "D": "It turns the assistant into a newly trained AI model."
-          },
-          "correct": "B"
-        },
-        {
-          "question": "A consulting team works on the same policy-development project for six months. They want every new conversation in the workspace to inherit project instructions, uploaded knowledge and shared context. Which module platform is most directly designed around this pattern?",
-          "options": {
-            "A": "Claude Projects",
-            "B": "A standard one-off chatbot conversation",
-            "C": "Gemini Gems only",
-            "D": "An unconfigured general-purpose chat"
-          },
-          "correct": "A"
-        },
-        {
-          "question": "A finance agent prepares a recommendation affecting a major investment. It has analyzed documents, used calculation tools and produced a detailed rationale. What does the module still recommend?",
-          "options": {
-            "A": "A qualified human should review the important decision before implementation.",
-            "B": "The agent should automatically execute because multiple tools were used.",
-            "C": "The result requires no review once memory and tools agree.",
-            "D": "Human involvement should be limited to correcting grammar."
-          },
-          "correct": "A"
-        },
-        {
-          "question": "An executive argues, \u201cThe agent checked its memory, used the correct tools and produced a confident recommendation. Therefore human review would add no value.\u201d Which response most closely reflects the module?",
-          "options": {
-            "A": "Correct, the three building blocks remove the need for human judgment.",
-            "B": "Correct, but only when episodic memory is available.",
-            "C": "Incorrect only if the agent has fewer than three external tools.",
-            "D": "Important decisions can still require human context, ethical judgment and accountability."
-          },
-          "correct": "D"
-        },
-        {
-          "question": "In the Module 3 workshop, trainees perform the same task using a configured Gemini Gem and a normal Gemini chat. What observation would provide the strongest evidence that reusable configuration is working as intended?",
-          "options": {
-            "A": "The Gem maintains the intended role, formatting and rules across related prompts with less repeated instruction.",
-            "B": "The Gem always produces a longer response than normal chat.",
-            "C": "The standard chat stops understanding the task completely.",
-            "D": "The Gem gives the same exact wording every time regardless of the request."
-          },
-          "correct": "A"
-        },
-        {
-          "question": "A travel assistant receives the goal: \u201cPlan my three-day Pokhara trip within NPR 40,000.\u201d It compares options, builds an itinerary, checks whether the selected activities fit the budget, changes one hotel when the cost becomes too high, and then presents the completed plan. Which characteristic most strongly separates this behavior from a traditional chatbot?",
-          "options": {
-            "A": "It produces several paragraphs instead of a single answer.",
-            "B": "It remembers that Pokhara is a travel destination.",
-            "C": "It uses natural language rather than a fixed menu.",
-            "D": "It determines and adjusts the steps needed to accomplish the goal."
-          },
-          "correct": "D"
-        },
-        {
-          "question": "A meeting agent remembers that Room A was available every Monday for the past month. Today, the live booking tool reports that Room A is occupied. What should a well-designed agent prioritize?",
-          "options": {
-            "A": "The remembered pattern, because memory should override a tool after enough past observations.",
-            "B": "The model's original plan, because changing plans reduces agent consistency.",
-            "C": "The current observation and then replanning based on the new information.",
-            "D": "The remembered information and tool result equally, even if they directly contradict each other."
-          },
-          "correct": "C"
-        },
-        {
-          "question": "A support agent stores \u201cCustomer prefers email communication\u201d and \u201cOn March 8, the customer's delivery failed and a replacement shipment resolved the case.\u201d An engineer proposes storing both pieces of information as the same type of memory simply because both survive across sessions. What is the better analysis?",
-          "options": {
-            "A": "Both should be procedural because the information may influence future actions.",
-            "B": "Both should be semantic because neither belongs to the current conversation.",
-            "C": "The preference can be long-term user memory while the specific past case is episodic memory.",
-            "D": "The past event should be short-term while the preference should be semantic."
-          },
-          "correct": "C"
-        },
-        {
-          "question": "A customer-support agent is being designed to improve over time. The team wants it to remember useful customer preferences, how previous unusual support incidents were resolved, and the company's standard refund workflow. Which combination is most appropriate?",
-          "options": {
-            "A": "Long-term, episodic and procedural memory",
-            "B": "Short-term, semantic and episodic memory",
-            "C": "Procedural, short-term and long-term memory",
-            "D": "Semantic, procedural and short-term memory"
-          },
-          "correct": "A"
-        },
-        {
-          "question": "An agent has access to the correct customer database, remembers the customer's previous complaint, and can send email. However, after reading the complaint it repeatedly chooses an irrelevant action even though all required information is available. Which component should be investigated first?",
-          "options": {
-            "A": "The model's reasoning and decision-making",
-            "B": "The long-term memory storage mechanism",
-            "C": "The email tool's external connection",
-            "D": "The customer's previous interaction history"
-          },
-          "correct": "A"
-        },
-        {
-          "question": "A team creates a reusable HR assistant using an existing AI platform. They configure instructions, upload company material and enable relevant capabilities. What have they actually done?",
-          "options": {
-            "A": "Trained a completely new foundation model from company data",
-            "B": "Replaced the underlying AI model with a custom neural network",
-            "C": "Configured an existing model for a specific reusable purpose",
-            "D": "Converted the company's documents into a new language model"
-          },
-          "correct": "C"
-        },
-        {
-          "question": "An agent preparing a workshop has already remembered the preferred date. It now needs to determine whether the venue is available and reserve it. Which sequence best reflects the architecture taught in the module?",
-          "options": {
-            "A": "Tool remembers the preferred date - memory evaluates alternatives - model books the venue.",
-            "B": "Memory books the venue - model retrieves the date - calendar reasons about alternatives.",
-            "C": "Calendar selects the best strategy - model stores the venue - memory performs the booking.",
-            "D": "Model uses remembered preferences to decide what to check, then uses a booking/calendar tool to act."
-          },
-          "correct": "D"
-        },
-        {
-          "question": "During a support conversation, the customer says, \u201cMy order number is 9182.\u201d Several messages later, the agent still uses 9182 while resolving the same issue. Which memory type is most directly involved?",
-          "options": {
-            "A": "Semantic memory",
-            "B": "Short-term memory",
-            "C": "Episodic memory",
-            "D": "Procedural memory"
-          },
-          "correct": "B"
-        },
-        {
-          "question": "An agent remembers that a previous customer accepted a 15% discount after a service failure. A new customer reports a completely different problem, but the agent automatically gives the same discount because \u201cit worked last time.\u201d Which conclusion is strongest?",
-          "options": {
-            "A": "Episodic memory should never be available to an AI agent.",
-            "B": "Remembered past outcomes must still be interpreted appropriately for the current situation.",
-            "C": "Procedural memory should replace the model's decision-making entirely.",
-            "D": "Any information stored across sessions becomes a mandatory rule for future actions."
-          },
-          "correct": "B"
-        },
-        {
-          "question": "A recruitment agent ranks applicants and recommends three candidates for final interviews. The hiring manager accepts the ranking without reviewing candidate information because \u201cthe agent already analyzed everything.\u201d Which safeguard from the module is most clearly missing?",
-          "options": {
-            "A": "Human review of an important decision",
-            "B": "Additional short-term memory",
-            "C": "A second recruitment persona",
-            "D": "A larger number of connected tools"
-          },
-          "correct": "A"
+            "id": "module6",
+            "name": "Module 6: AI-Assisted Development & Vibe Coding (Set 3)",
+            "questions": [
+                {
+                    "question": "A learner encounters a bug after adding search. Instead of regenerating the entire project, they ask the coding agent to inspect the affected files, identify the cause, apply a focused fix, and verify it. Which workshop expectation does this satisfy most directly?",
+                    "options": {
+                        "A": "Avoiding all agent-based debugging",
+                        "B": "Replacing working functionality with a new application",
+                        "C": "Publishing before testing",
+                        "D": "Investigating and resolving an issue with the coding agent rather than simply regenerating everything"
+                    },
+                    "correct": "D"
+                },
+                {
+                    "question": "An expense tracker allows adding expenses, but the total at the top does not update after a new item is added. Which request best follows the module's refinement style?",
+                    "options": {
+                        "A": "\u201cChange the visual theme and maybe the total will start working.\u201d",
+                        "B": "\u201cWhen I add an expense, the total does not update. It should update immediately after the expense is added. Please fix and verify this without changing unrelated features.\u201d",
+                        "C": "\u201cBuild a new finance application.\u201d",
+                        "D": "\u201cImprove everything.\u201d"
+                    },
+                    "correct": "B"
+                },
+                {
+                    "question": "A project technically works, but users cannot tell whether the main button saves, deletes, or submits information because it is labelled \u201cDo It.\u201d Which final-polish improvement is most appropriate?",
+                    "options": {
+                        "A": "Keep the label because functionality matters and clarity does not.",
+                        "B": "Add another button labelled \u201cMaybe.\u201d",
+                        "C": "Hide the button until the user guesses its function.",
+                        "D": "Replace it with button text that clearly describes the action it performs."
+                    },
+                    "correct": "D"
+                },
+                {
+                    "question": "A team says, \u201cVibe coding means giving the AI one prompt and accepting whatever it produces because the AI handles the programming.\u201d Which correction best matches the curriculum?",
+                    "options": {
+                        "A": "Vibe coding requires learners to avoid natural-language instructions after the first build.",
+                        "B": "Vibe coding still requires the learner to describe, review, test, and refine the project.",
+                        "C": "Vibe coding is mainly the process of selecting an AI coding brand.",
+                        "D": "Vibe coding is complete only when the learner can explain all generated code technically."
+                    },
+                    "correct": "B"
+                },
+                {
+                    "question": "A trainee wants a simple classroom quiz with ten questions, one question at a time, final score, mobile-friendly layout, and no login or multiplayer features. Which first-build request is strongest?",
+                    "options": {
+                        "A": "\u201cBuild a quiz website.\u201d",
+                        "B": "\u201cChoose any features you think users might eventually want.\u201d",
+                        "C": "\u201cBuild the most advanced quiz platform you can.\u201d",
+                        "D": "\u201cCreate a mobile-friendly ten-question quiz showing one question at a time and the final score; do not add login, multiplayer, or unrelated features.\u201d"
+                    },
+                    "correct": "D"
+                },
+                {
+                    "question": "After adding performance scoring to the attendance tracker, which evidence best demonstrates responsible iteration?",
+                    "options": {
+                        "A": "Scoring works and the previously working participant and attendance features were tested again.",
+                        "B": "The new score field appears somewhere on the screen.",
+                        "C": "The learner created a longer project description after implementation.",
+                        "D": "The agent says the feature was implemented."
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "A coding agent receives: \u201cFix my entire application. Improve the design, repair every bug, reorganize all files, add search, change storage, and make everything faster.\u201d It begins repeatedly inspecting and editing unrelated parts without meaningful progress. What should the learner do first?",
+                    "options": {
+                        "A": "Publish the current version and troubleshoot after users report problems.",
+                        "B": "Add even more requirements so the agent has additional context.",
+                        "C": "Let the agent continue indefinitely because stopping may lose its reasoning.",
+                        "D": "Stop or interrupt the current task and review what has already changed."
+                    },
+                    "correct": "D"
+                },
+                {
+                    "question": "The first version of an expense tracker works correctly with adding expenses, categories, and total spending. A trainee immediately asks for budgeting, investment tracking, bank synchronization, notifications, reports, and financial advice in one change. What principle from the module is being ignored?",
+                    "options": {
+                        "A": "Projects should never gain features after the first build.",
+                        "B": "AI coding tools should be used only for visual changes.",
+                        "C": "The learner should switch coding tools before adding a second feature.",
+                        "D": "Improvements should be made in manageable, focused stages rather than many unrelated changes at once."
+                    },
+                    "correct": "D"
+                },
+                {
+                    "question": "A flashcard application's first build includes the correct questions and design, but it reveals every answer immediately. The original requirement said answers should remain hidden until the learner clicks Reveal Answer. What is the most appropriate response?",
+                    "options": {
+                        "A": "Manually rewrite all generated code before speaking to the agent again.",
+                        "B": "Clearly describe the observed behavior and restate the expected behavior for the agent to correct.",
+                        "C": "Regenerate the entire application with a different coding tool.",
+                        "D": "Accept the result because the main content exists."
+                    },
+                    "correct": "B"
+                },
+                {
+                    "question": "A project request already describes the app's purpose, users, features, visual style, technology, and constraints. The learner adds: \u201cInspect the existing project before changing anything. Preserve the working quiz navigation and test your changes when finished.\u201d What additional idea is this instruction teaching?",
+                    "options": {
+                        "A": "The learner is required to tell the agent exactly which lines of code to modify.",
+                        "B": "Testing should be delayed until all planned features have been implemented.",
+                        "C": "The learner can guide how the coding agent should approach and verify its work, not only describe the desired final interface.",
+                        "D": "Every project should prevent the agent from reading existing files."
+                    },
+                    "correct": "C"
+                },
+                {
+                    "question": "Which instruction best reduces regression risk while adding a progress indicator to an existing quiz?",
+                    "options": {
+                        "A": "\u201cAdd progress and assume all previous features will continue working.\u201d",
+                        "B": "\u201cReplace the existing project with a new one that includes progress.\u201d",
+                        "C": "\u201cAdd a progress indicator. Do not change navigation, scoring, or answer-reveal behavior, and verify those features afterward.\u201d",
+                        "D": "\u201cImprove the whole quiz however you think is best.\u201d"
+                    },
+                    "correct": "C"
+                },
+                {
+                    "question": "A change has broken several parts of a project. The learner has a saved version from immediately before the change. Which response most closely matches the module?",
+                    "options": {
+                        "A": "Continue adding features until the broken behavior disappears.",
+                        "B": "Return to the last working state if necessary, then attempt a more focused change.",
+                        "C": "Delete the saved version because older versions should never be reused.",
+                        "D": "Publish both versions and ask users to choose which works."
+                    },
+                    "correct": "B"
+                },
+                {
+                    "question": "A trainee asks an AI coding tool to build a flashcard app. The tool creates the files and implementation, but the trainee never opens the result or checks whether the Reveal Answer button works. Which part of the vibe coding process has the trainee skipped most critically?",
+                    "options": {
+                        "A": "Allowing the agent to create files automatically",
+                        "B": "Describing the project in natural language",
+                        "C": "Selecting a programming framework",
+                        "D": "Reviewing and testing what the AI created"
+                    },
+                    "correct": "D"
+                },
+                {
+                    "question": "During debugging, a trainee tells the coding agent: \u201cDo not make changes yet. Inspect the relevant files, identify the likely cause, and tell me what you plan to change.\u201d What advantage does this provide?",
+                    "options": {
+                        "A": "It allows investigation before editing, reducing the chance of unnecessary changes.",
+                        "B": "It automatically restores the previous working version.",
+                        "C": "It forces the learner to understand every line of generated code.",
+                        "D": "It prevents the agent from ever modifying the project."
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "A learner has already built a working quiz in React. During the next iteration, they tell the coding agent to rebuild the project in a different framework simply because another framework was mentioned online. No project requirement has changed. Which approach better matches the module?",
+                    "options": {
+                        "A": "Change frameworks regularly because vibe coding works best when each feature uses different technology.",
+                        "B": "Remove all technology requirements and allow the agent to rewrite the project during every iteration.",
+                        "C": "Continue using the established setup unless there is a clear reason to change it.",
+                        "D": "Stop using an AI coding agent once the first framework has been selected."
+                    },
+                    "correct": "C"
+                },
+                {
+                    "question": "Another trainee wants to deploy a web application and receive a URL that other people can open and test. Which example platform is explicitly discussed in the module?",
+                    "options": {
+                        "A": "Notion",
+                        "B": "Vercel",
+                        "C": "n8n",
+                        "D": "Google Calendar"
+                    },
+                    "correct": "B"
+                },
+                {
+                    "question": "A learner's first expense-tracker version only displayed expenses. After using it, they added categories and a total-spending figure. Which presentation point does this example best support?",
+                    "options": {
+                        "A": "How the project changed and became more useful during iteration",
+                        "B": "Which programming syntax the AI used",
+                        "C": "Why a project should remain identical to its first specification",
+                        "D": "Which hosting company generated the final link"
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "Before publishing, a trainee notices that an API key has been written directly into a publicly accessible project file. What should they do?",
+                    "options": {
+                        "A": "Do not expose passwords, API keys, private information, or other sensitive data in the public project.",
+                        "B": "Put the same key in more files so the application can find it reliably.",
+                        "C": "Publish it because API keys are safe when generated by an AI coding agent.",
+                        "D": "Include the key in the project presentation so viewers understand the integration."
+                    },
+                    "correct": "A"
+                },
+                {
+                    "question": "After seeing the first version of a study planner, a trainee realizes the chart is distracting and unnecessary. Which action best reflects the module's approach to refinement?",
+                    "options": {
+                        "A": "Ask the agent to add two more charts so the page feels balanced.",
+                        "B": "Keep the chart because improvement always means adding rather than removing features.",
+                        "C": "Ask the agent to remove the unnecessary chart and verify the remaining experience.",
+                        "D": "Start an entirely new project instead of changing the current one."
+                    },
+                    "correct": "C"
+                },
+                {
+                    "question": "Before calling a personal project usable, which test is most meaningful?",
+                    "options": {
+                        "A": "Check whether the AI used enough files.",
+                        "B": "Use the important features from beginning to end and judge whether the project's main purpose can actually be completed.",
+                        "C": "Confirm only that the home page opens without an error.",
+                        "D": "Check only whether the project looks visually attractive in a screenshot."
+                    },
+                    "correct": "B"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "id": "module4",
-      "name": "Module 4: Connected AI, MCP & Tools (Set 1)",
-      "questions": [
-        {
-          "question": "An AI application connects separately to a file service, calendar service, and internal database through MCP. Which architectural statement is most consistent with the curriculum?",
-          "options": {
-            "A": "One MCP Server must directly contain every external system.",
-            "B": "A Host may manage multiple MCP clients connecting to different MCP servers.",
-            "C": "Each AI model can use only one MCP client during its lifetime.",
-            "D": "MCP Clients replace the AI model's reasoning component."
-          },
-          "correct": "B"
-        },
-        {
-          "question": "A Drive-connected AI is asked, \u201cFind the latest supplier-risk assessment.\u201d The employee cannot remember the exact filename, but the document contains clear information about supplier risk. Which connected-AI capability is especially useful here?",
-          "options": {
-            "A": "Natural-language search across stored Drive content",
-            "B": "Automatically granting the AI write access to every file",
-            "C": "Converting every Drive document into an Artifact",
-            "D": "Replacing the existing folder structure with a new AI-generated one before searching"
-          },
-          "correct": "A"
-        },
-        {
-          "question": "A department wants a workspace that will be reused every week. It needs consistent tone and format, internal reference materials, multiple related chats, and a report template that can be revised rather than regenerated. Which combination most directly satisfies all four needs?",
-          "options": {
-            "A": "A Plugin plus a browser extension only",
-            "B": "A Skill plus separate unrelated chats",
-            "C": "Claude Code plus one temporary conversation",
-            "D": "A Claude Project with instructions, knowledge files, multiple chats, and a reusable Artifact"
-          },
-          "correct": "D"
-        },
-        {
-          "question": "A project has the instruction \u201cUse a formal tone and finish every response with three action items.\u201d The user opens a new chat inside the same Claude Project and asks an unrelated project question. Claude still follows those rules without the user repeating them. What feature is primarily responsible for this consistency?",
-          "options": {
-            "A": "The previous chat has been converted into an Artifact.",
-            "B": "The Project's persistent instructions apply across its conversations.",
-            "C": "A Plugin automatically rewrites every user message before Claude receives it.",
-            "D": "Claude Code reads the previous chat from the local file system."
-          },
-          "correct": "B"
-        },
-        {
-          "question": "A manager photographs a handwritten whiteboard containing tasks, arrows, and dates. They want AI to recover the visible text and explain the flow shown in the image. Which combination of capabilities is most relevant?",
-          "options": {
-            "A": "Excel formulas and pivot tables",
-            "B": "Claude Project instructions and Artifacts",
-            "C": "OCR plus visual interpretation of the image or diagram",
-            "D": "MCP Host and Client discovery only"
-          },
-          "correct": "C"
-        },
-        {
-          "question": "A user has generated a useful calculator-like tool in Claude and expects to return later, adjust it, and reuse it rather than recreate it from a prompt each time. Why is an Artifact suitable?",
-          "options": {
-            "A": "Artifacts automatically provide access to any external application.",
-            "B": "Artifacts are reusable outputs that can be edited, referenced, and iterated on.",
-            "C": "Artifacts serve as the protocol layer between MCP Hosts and Servers.",
-            "D": "Artifacts permanently change Claude's underlying model behavior."
-          },
-          "correct": "B"
-        },
-        {
-          "question": "A project manager asks Claude to create a reusable weekly-status-report template. After reviewing it, the manager asks Claude to add a Risk section without regenerating the entire document from scratch. Which feature best matches this workflow?",
-          "options": {
-            "A": "An Artifact that can be revised and reused in place",
-            "B": "A Skill that stores only the manager's usage statistics",
-            "C": "A Plugin that connects to an external reporting service",
-            "D": "A Project instruction that permanently replaces the report itself"
-          },
-          "correct": "A"
-        },
-        {
-          "question": "A manager says, \u201cDocument Intelligence is basically OCR because both can read text from documents.\u201d Which response best reflects the curriculum?",
-          "options": {
-            "A": "Correct; Document Intelligence does nothing beyond converting images to text.",
-            "B": "Correct whenever the documents contain tables.",
-            "C": "Incomplete; Document Intelligence can understand structure and meaning, extract fields, and create structured information beyond simple text recognition.",
-            "D": "Incorrect because OCR is used only for audio rather than documents."
-          },
-          "correct": "C"
-        },
-        {
-          "question": "Claude analyzes an Excel workbook and proposes a chart showing a sharp increase in costs. Before management acts on the finding, an analyst discovers several rows were categorized incorrectly in the source data. What lesson is most important?",
-          "options": {
-            "A": "Charts generated from spreadsheets never require review.",
-            "B": "Claude should be given full write access so it can silently correct every data problem.",
-            "C": "Excel analysis should always be replaced by manual calculation.",
-            "D": "AI-generated spreadsheet insights should be validated against the underlying data before important decisions."
-          },
-          "correct": "D"
-        },
-        {
-          "question": "A document-search assistant only needs to locate and summarize files. An administrator proposes granting it permission to delete files, send emails, and change calendar events \u201cin case those capabilities are useful later.\u201d What principle should guide the decision?",
-          "options": {
-            "A": "Grant every permission because connected AI is useful only with full access.",
-            "B": "Use write access for every integration because read-only access prevents summarization.",
-            "C": "Apply least privilege and grant only the permissions required for the current task.",
-            "D": "Permissions are unnecessary if the Project instructions say not to perform risky actions."
-          },
-          "correct": "C"
-        },
-        {
-          "question": "A manager says, \u201cThe model understands that I want the latest quarterly report, so it should already be able to read the file in my Drive.\u201d No Drive connection or file upload exists. Which explanation is most accurate?",
-          "options": {
-            "A": "Understanding the request automatically grants read access to all user applications.",
-            "B": "The model still needs authorized access or a connection to retrieve information from the external system.",
-            "C": "A sufficiently detailed prompt can replace application permissions.",
-            "D": "The model should use procedural memory to reconstruct the missing report."
-          },
-          "correct": "B"
-        },
-        {
-          "question": "A connected assistant must read an existing project record, update its status, and send an authorized notification after the update. Which permission concept is most likely required?",
-          "options": {
-            "A": "Read-only access because the AI can describe changes without making them.",
-            "B": "Write-only access because reading is automatically included in every write scope.",
-            "C": "No application permissions if MCP is being used.",
-            "D": "Appropriate read-and-write permissions covering the required resources and actions."
-          },
-          "correct": "D"
-        },
-        {
-          "question": "An AI needs to examine existing financial records but must never alter them. Which permission level most directly supports the requirement?",
-          "options": {
-            "A": "Read access",
-            "B": "Write access only",
-            "C": "Read-and-write access",
-            "D": "Administrator access"
-          },
-          "correct": "A"
-        },
-        {
-          "question": "A team creates a Project with strong instructions but no uploaded company material. Claude follows the requested tone perfectly yet gives generic answers when asked about the company's internal procedures. What is the most direct improvement?",
-          "options": {
-            "A": "Increase the number of chats inside the Project.",
-            "B": "Turn every response into an Artifact.",
-            "C": "Add the relevant organizational documents as Project knowledge.",
-            "D": "Install a usage-tracking browser extension."
-          },
-          "correct": "C"
-        },
-        {
-          "question": "A claims team receives scanned accident forms. Staff need the policy number, accident date, claim amount, and damage details extracted into structured fields. Which application of Document Intelligence best matches this scenario?",
-          "options": {
-            "A": "Insurance document processing",
-            "B": "Presentation generation",
-            "C": "Project instruction management",
-            "D": "Plugin testing"
-          },
-          "correct": "A"
-        },
-        {
-          "question": "An engineer argues that MCP is always expensive because \u201cconnecting even one tiny tool automatically consumes most of the context window.\u201d Which evaluation is most accurate?",
-          "options": {
-            "A": "Correct; MCP reserves a fixed majority of the context window regardless of implementation.",
-            "B": "Correct; every MCP server sends its entire underlying database with every request.",
-            "C": "Incorrect only when the connected tool is a calendar.",
-            "D": "Incorrect; token impact depends on how many tools are exposed, their definitions, returned data, and context management."
-          },
-          "correct": "D"
-        },
-        {
-          "question": "An operations team debates whether to create a Skill or an Artifact. Their requirement is: \u201cWe need a reusable set of instructions that Claude can apply whenever it formats incident reports.\u201d Which choice best fits the requirement?",
-          "options": {
-            "A": "A Skill, because the reusable asset is the task procedure Claude should follow",
-            "B": "An Artifact, because every reusable instruction must be stored as a generated document",
-            "C": "A Plugin, because formatting cannot be handled without an external system",
-            "D": "A browser extension, because repeated tasks depend mainly on usage tracking"
-          },
-          "correct": "A"
-        },
-        {
-          "question": "Inside that AI application, one component establishes and maintains a communication session with a particular MCP server, discovers its capabilities, sends requests, and receives results. What is this component?",
-          "options": {
-            "A": "MCP Client",
-            "B": "MCP Host",
-            "C": "Model context window",
-            "D": "Claude Artifact"
-          },
-          "correct": "A"
-        },
-        {
-          "question": "An organization wants an end-to-end AI workflow that retrieves approved business documents, extracts relevant information, prepares an executive summary and presentation, and updates an authorized workplace record. The documents are sensitive and some extracted values may be uncertain. Which design best reflects the combined principles of Module 4?",
-          "options": {
-            "A": "Give the AI unrestricted access to every connected system so the workflow never pauses for permissions.",
-            "B": "Use AI only for generating text and manually perform every retrieval, extraction, and update because connected workflows are unsupported.",
-            "C": "Use authorized connected tools with least-privilege access, apply Document Intelligence to the required data, validate important outputs, and retain human oversight where sensitivity or uncertainty warrants it.",
-            "D": "Place all documents into a public Project and rely on custom instructions to prevent unauthorized use."
-          },
-          "correct": "C"
-        },
-        {
-          "question": "A team connects 120 MCP tools to an AI assistant even though most users need only a few of them. They then notice that requests use substantially more context tokens before useful work begins. What is the strongest curriculum-based explanation?",
-          "options": {
-            "A": "MCP retrains the model every time a new tool becomes available.",
-            "B": "External tools consume tokens only when they modify files.",
-            "C": "Tool definitions, schemas, and returned results can occupy model context, especially when many tools are exposed.",
-            "D": "MCP automatically doubles output length whenever more than ten tools are installed."
-          },
-          "correct": "C"
-        }
-      ]
-    },
-    {
-      "id": "module5",
-      "name": "Module 5: Automated Workflows & Orchestration (Set 1)",
-      "questions": [
-        {
-          "question": "A manager rejects an AI-generated customer response during an approval step. What should a properly designed workflow allow?",
-          "options": {
-            "A": "Permanently disable every future execution of the workflow.",
-            "B": "Send the rejected message because AI generated it first.",
-            "C": "Delete the customer's original request automatically.",
-            "D": "Stop the send action or route the item for revision or manual handling."
-          },
-          "correct": "D"
-        },
-        {
-          "question": "Keyword rules incorrectly route messages such as \u201cI've been charged twice and need this fixed\u201d because the exact word \u201crefund\u201d does not appear. Which approach is most appropriate?",
-          "options": {
-            "A": "Add more Schedule Triggers.",
-            "B": "Store every possible customer sentence as a fixed variable.",
-            "C": "Use an LLM node to interpret the meaning and classify the message.",
-            "D": "Use a loop until the word \u201crefund\u201d appears."
-          },
-          "correct": "C"
-        },
-        {
-          "question": "A workflow receives a different customer name during every execution. The email node needs to insert that name automatically instead of using fixed text. Which n8n concept best supports this?",
-          "options": {
-            "A": "Docker images",
-            "B": "Credentials",
-            "C": "Trigger types",
-            "D": "Expressions that reference changing workflow data"
-          },
-          "correct": "D"
-        },
-        {
-          "question": "A workflow receives invoices written in different layouts. The AI node must identify the supplier, invoice date, and total amount so those values can be stored in a database. Which AI capability is most relevant?",
-          "options": {
-            "A": "Credential creation",
-            "B": "Workflow scheduling",
-            "C": "Content generation",
-            "D": "Information extraction"
-          },
-          "correct": "D"
-        },
-        {
-          "question": "A customer's order ID changes on every workflow execution. A confirmation message must always include the order ID returned by the previous node. What design is strongest?",
-          "options": {
-            "A": "Reference the previous node's order ID dynamically with an expression.",
-            "B": "Store one example order ID in the authentication credential.",
-            "C": "Ask an employee to edit the message before each execution.",
-            "D": "Create a separate workflow for every order."
-          },
-          "correct": "A"
-        },
-        {
-          "question": "A manager wants a reporting workflow to run automatically every morning and every evening. Which feature should primarily control those execution times?",
-          "options": {
-            "A": "Scheduling or an appropriate CRON configuration",
-            "B": "Merge logic",
-            "C": "Prompt templates",
-            "D": "Credentials"
-          },
-          "correct": "A"
-        },
-        {
-          "question": "Two different branches of an n8n workflow retrieve related records that need to be combined before the next step. Which n8n component is specifically designed for this?",
-          "options": {
-            "A": "Manual Trigger",
-            "B": "Schedule Trigger",
-            "C": "Merge node",
-            "D": "OAuth credential"
-          },
-          "correct": "C"
-        },
-        {
-          "question": "Docker Desktop shows that the n8n image exists, but no container can be started because the component responsible for running and managing containers is unavailable. Which component should be checked first?",
-          "options": {
-            "A": "n8n Workflow Editor",
-            "B": "Docker Engine",
-            "C": "n8n Execution History",
-            "D": "Docker Volume"
-          },
-          "correct": "B"
-        },
-        {
-          "question": "A company designs the following process: AI evaluates a proposed record change \u2192 Human reviews \u2192 Approved changes continue; rejected changes do not. Which principle does this workflow illustrate?",
-          "options": {
-            "A": "Human approval is useful only for emails.",
-            "B": "The workflow should always perform the action before review.",
-            "C": "AI recommends a human review, and the workflow acts only after the decision.",
-            "D": "The human should perform the AI analysis instead."
-          },
-          "correct": "C"
-        },
-        {
-          "question": "During development, a trainee wants a workflow to run only when they deliberately click Execute so they can inspect every step. Which trigger is most suitable?",
-          "options": {
-            "A": "Manual Trigger",
-            "B": "Form Trigger",
-            "C": "Webhook Trigger",
-            "D": "Schedule Trigger"
-          },
-          "correct": "A"
-        },
-        {
-          "question": "A trainee wants n8n to work with their Google account without storing their Google password in n8n. They sign in to Google, review requested permissions, and approve access. Which authentication approach does this describe?",
-          "options": {
-            "A": "Manual authentication",
-            "B": "OAuth 2.0",
-            "C": "Webhook authentication",
-            "D": "API Key"
-          },
-          "correct": "B"
-        },
-        {
-          "question": "An HR workflow receives 150 applications. The same extraction and processing steps should run for each application without creating 150 copies of the workflow. What is the best design?",
-          "options": {
-            "A": "Use a loop to repeat the required steps for the applications.",
-            "B": "Create one trigger per applicant.",
-            "C": "Create one credential per applicant.",
-            "D": "Merge all applications into one value and process them once."
-          },
-          "correct": "A"
-        },
-        {
-          "question": "A support team processes thousands of messages with one standard AI classification workflow. The AI's role, categories, rules, and required output stay the same, while the customer message changes every execution. Which design is strongest?",
-          "options": {
-            "A": "Use a reusable prompt template containing fixed instructions and dynamic variables.",
-            "B": "Write a new prompt manually for every incoming message.",
-            "C": "Put the customer message inside the API key.",
-            "D": "Store one example customer message permanently and use it for every execution."
-          },
-          "correct": "A"
-        },
-        {
-          "question": "A prompt contains dynamic placeholders such as `Customer Name: {{ customer_name }}` and `Message: {{ customer_message }}` where surrounding instructions remain unchanged. What do these placeholders represent?",
-          "options": {
-            "A": "Trigger definitions",
-            "B": "Dynamic data inserted by the workflow",
-            "C": "Fixed instructions",
-            "D": "Authentication secrets"
-          },
-          "correct": "B"
-        },
-        {
-          "question": "Consider this flow: Gmail \u2192 LLM Node \u2192 Classify Email \u2192 Google Sheets \u2192 Send Response. Why is this a connected flow?",
-          "options": {
-            "A": "All applications are running in one Docker container.",
-            "B": "Multiple applications and workflow steps exchange and process data as part of one automated process.",
-            "C": "Every node uses the same credential type.",
-            "D": "The LLM performs every external action without the workflow."
-          },
-          "correct": "B"
-        },
-        {
-          "question": "A new employee is added to the company's HR system. The organization wants accounts created, welcome information sent, required documents shared, and HR notified automatically. Which automation use case is this?",
-          "options": {
-            "A": "Research automation",
-            "B": "Meeting-summary automation",
-            "C": "Employee onboarding automation",
-            "D": "Customer-support automation"
-          },
-          "correct": "C"
-        },
-        {
-          "question": "A workflow receives long meeting notes and must turn them into a short summary before the next step sends the result to a team channel. Which LLM-node capability is being used primarily?",
-          "options": {
-            "A": "Container management",
-            "B": "Summarization",
-            "C": "Authentication",
-            "D": "Scheduling"
-          },
-          "correct": "B"
-        },
-        {
-          "question": "A Google-connected workflow only uses Drive and Sheets. During setup, a trainee suggests enabling Gmail, Calendar, Docs, Drive, and Sheets APIs \u201cbecause we may need them someday.\u201d What is the better approach?",
-          "options": {
-            "A": "Enable only the APIs required by the workflows that will actually use them.",
-            "B": "Enable all Google APIs because OAuth cannot work with selected services.",
-            "C": "Disable all APIs and place the Google password inside the workflow.",
-            "D": "Create a new Google account for every individual node."
-          },
-          "correct": "A"
-        },
-        {
-          "question": "A reusable automation prompt must tell the AI who it should act as, what to do, what information to consider, which changing values to insert, what restrictions to follow, and how to structure the answer. Which set best represents these components?",
-          "options": {
-            "A": "Image, Container, Engine, API, Webhook, Form",
-            "B": "Input, Output, Docker, OAuth, CRON, Execution",
-            "C": "Trigger, Node, Container, Loop, Schedule, Credential",
-            "D": "Role, Task, Context, Variables, Rules, Output Format"
-          },
-          "correct": "D"
-        },
-        {
-          "question": "A workflow retrieves a list of 100 customers and must send each customer an individually addressed reminder. What is the strongest workflow design?",
-          "options": {
-            "A": "Create 100 separate OAuth credentials.",
-            "B": "Loop through the customer items and use changing data in the reminder step.",
-            "C": "Use one fixed email address for all executions.",
-            "D": "Create 100 Docker containers."
-          },
-          "correct": "B"
-        }
-      ]
-    }
-  ]
+    ]
 }
